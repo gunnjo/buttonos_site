@@ -30,10 +30,10 @@
 			*/
 			?>
 
-			<h1>ButtonOS Version 1.0.0 (2011-10-22)</h1>
+			<h1>ButtonOS Mark 1.0 - Release Candidate 2 (2011-01-02)</h1>
 
 			<h1>1) Download The File (ISO Format)</h1>
-			<p><a href="https://sourceforge.net/projects/buttonos/files/ButtonOS_v1.0.0.iso/download">Click to Download</a></p>
+			<p><a href="/images/CommonDe.Mark-1-0.RC2.2011-01-02.iso">Click to Download</a></p>
 
 			<h1>2) Burn the Disc</h1>
 			<p>Grab a blank CD and insert it into your CD burner. Using a program like ImgBurn for Windows or Toast Titanium for Mac, burn the ButtonOS disc image onto the blank CD. If you are having any trouble with the burn, try setting the burning speed to about 8x-16x.</p>
@@ -49,13 +49,9 @@
 				<li>Issues Accessing Protected Wired Networks (In Progress - No Workaround Currently)</li>
 				<li>Limited "Hot-Swap" Connection Support (In Progress - Ensure Internet Cable is Connected at Startup)</li>
 			</ul>
-<?php
-/*
+	
 			<h1>Need Help?</h1>
 			<p>If you are having trouble, let Curly Cloud know on our <a rel="external" href="http://getsatisfaction.com/curlycloud/topics/new">Get Satisfaction Page</a> or use the "Help" tab on the bottom of this page.</p>
-*/
-?>
-
 		</div>
 	</div>
 </div>
