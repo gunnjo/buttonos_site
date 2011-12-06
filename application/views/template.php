@@ -40,7 +40,7 @@
 			<ul id="navigation">
 				<li><a href="/about">About</a></li>
 				<li><a rel="external" href="http://blog.buttonos.org">Blog</a></li>
-				<li><a rel="external" href="https://github.com/curlycloud/ButtonOS-Build/wiki/ButtonOS-Features">Features</a></li>
+				<li><a href="/features">Features</a></li>
 				<li><a href="/community">Community</a></li>
 				<li><a href="/community/contribute">Contribute</a></li>
 				<li><a class="download" href="/download">Download</a></li>
@@ -71,34 +71,34 @@
 					<div class="footer-column">
 						<h3>About ButtonOS</h3>
 						<ul>
-							<li><a href="/goals">Goals</a></li>
-							<li><a href="/team">Team</a></li>
-							<li><a rel="external" href="http://blog.buttonos.org">Blog</a></li>
+							<li>Goals</li>
+							<li>Team</li>
+							<li>Blog</li>
 						</ul>
 					</div>
 					<div class="footer-column">
 						<h3>Why ButtonOS?</h3>
 						<ul>
-				<li><a rel="external" href="https://github.com/curlycloud/ButtonOS-Build/wiki/ButtonOS-Features">Features</a></li>
-							<li><a href="/security">Security</a></li>
-							<?php /*<li>Simplicity</li>*/ ?>
+							<li>Features</li>
+							<li>Security</li>
+							<li>Simplicity</li>
 						</ul>
 					</div>
 					<div class="footer-column">
 						<h3>ButtonOS Community</h3>
 						<ul>
-							<li><a href="/community/contribute">Contribute</a></li>
-							<li><a rel="external" href="http://github.com/curlycloud">GitHub</a></li>
-							<li><a rel="external" href="http://github.com/curlycloud/ButtonOS-Build/wiki/License">License</a></li>
+							<li>Contribute</li>
+							<li>GitHub</li>
+							<li>License</li>
 							<?php /*<li>Forum</li>*/ ?>
 						</ul>
 					</div>
 					<div class="footer-column">
 						<h3>ButtonOS Help</h3>
 						<ul>
-							<li><a rel="external" href="http://www.wikihost.org//w/buttonos/">Wiki/Docs</a></li>
-							<?php /*<li>Tutorials</li>*/ ?>
-							<?php /*<li>Contact</li>*/ ?>
+							<li>Documentation</li>
+							<li>Tutorials</li>
+							<li>Contact</li>
 						</ul>
 					</div>
 	
