@@ -17,6 +17,7 @@ class Controller_Start extends Controller_Global {
 		$this->body->set(
 			array(
 				'page_title' => 'Welcome to ButtonOS - What Would You Like to Do?',
+				'control_page' => '#',
 				'buttons' =>
                     array(
                         1=> array(
