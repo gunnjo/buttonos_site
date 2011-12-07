@@ -4,9 +4,11 @@
 
 <div class="container_12" style="background: none;">
 
+	<a class="start_button" href="<?php echo $control_page;?>">
 	<div class="grid_12 runway_picture">
-		<img src="/media/start/img/buttonos-start.gif" alt="" />
+		<img src="/media/start/img/buttonos-start.gif" alt="Start Runway" />
 	</div>
+	</a>
 
 	<div class="grid_12">
 		<form method="get" action="https://www.duckduckgo.com/">
