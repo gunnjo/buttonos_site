@@ -17,84 +17,27 @@
 		</form>
 	</div>
 
-	<div class="clear"></div>
-
-	<a class="task_button" rel="external" href="http://www.gmail.com">
-		<div class="grid_4">
-			<img src="/media/start/img/icons/gmail.png" alt="" />
-			<h3>Check My Email</h3>
-			<p>with Gmail</p>
-		</div>
-	</a>
-
-	<a class="task_button" rel="external" href="http://www.google.com/docs">
-		<div class="grid_4">
-			<img src="/media/start/img/icons/google.png" alt="" />
-			<h3>Write Something</h3>
-			<p>with Google Docs</p>
-		</div>
-	</a>
-
-	<a class="task_button" rel="external" href="http://www.wikipedia.org">
-		<div class="grid_4">
-			<img src="/media/start/img/icons/wikipedia.png" alt="" />
-			<h3>Do Some Research</h3>
-			<p>on Wikipedia</p>
-		</div>
-	</a>
-
-	<div class="clear"></div>
-
-	<a class="task_button" rel="external" href="http://www.facebook.com">
-		<div class="grid_4">
-			<img src="/media/start/img/icons/facebook.png" alt="" />
-			<h3>Find My Friends</h3>
-			<p>on Facebook</p>
-		</div>
-	</a>
-
-	<a class="task_button" rel="external" href="http://www.youtube.com">
-		<div class="grid_4">
-			<img src="/media/start/img/icons/youtube.png" alt="" />
-			<h3>Watch a Video</h3>
-			<p>on YouTube</p>
-		</div>
-	</a>
-
-	<a class="task_button" rel="external" href="http://www.amazon.com">
-		<div class="grid_4">
-			<img src="/media/start/img/icons/amazon.png" alt="" />
-			<h3>Go Shopping</h3>
-			<p>on Amazon</p>
-		</div>
-	</a>
-
-	<div class="clear"></div>
-
-	<a id="skype_link" class="task_button" rel="external" href="#skype">
-		<div class="grid_4">
-			<img src="/media/start/img/icons/skype.png" alt="" />
-			<h3>Video Chat</h3>
-			<p>with Skype</p>
-		</div>
-	</a>
-
-	<a class="task_button" rel="external" href="http://www.espn.com">
-		<div class="grid_4">
-			<img src="/media/start/img/icons/espn.png" alt="" />
-			<h3>Read Sports News</h3>
-			<p>on ESPN</p>
-		</div>
-	</a>
-
-	<a class="task_button" rel="external" href="http://www.google.com/finance">
-		<div class="grid_4">
-			<img src="/media/start/img/icons/google.png" alt="" />
-			<h3>Check My Stocks</h3>
-			<p>with Google Finance</p>
-		</div>
-	</a>
-
+<?php
+	$c = 0;
+	foreach ( $buttons as $x )
+	{
+		if (($c++ % 3) == 0)
+		{
+			echo '<div class="clear"></div>';
+		}
+		echo '<a class="task_button"';
+		if ( $x['id'] != NULL )
+		{
+			echo ' id="'.$x['id'].'"';
+		}
+		echo ' rel="'.$x['type'].'" href="'.$x['href'].'">';
+		echo '<div class="grid_4">';
+		echo '<img src="'.$x['img'].'" alt="'.$x['header'].'" />';
+		echo '<h3>'.$x['header'].'</h3>';
+		echo '<p>'.$x['description'].'</p>';
+		echo '</div> </a>';
+	}
+?>
 	<div class="clear"></div>
 
 	<p style="margin: 10px 0px 10px 0px; text-align: center; font-weight: bold;"><a id="customize_links_link" href="#customize_links" style="color: #000000;">Want to Customize These Links?</a></p>
