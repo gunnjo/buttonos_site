@@ -30,7 +30,7 @@ if ( is_cde() ) {
                 exit;
         }
 } else {
-	header("Status: 404 Not Found");
+	header("Status: 404 Not Found", true, 404);
 }
 
 ?>

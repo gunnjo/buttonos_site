@@ -1,2 +1,1 @@
-AddHandler matchfile .tgz
-Action matchfile ./selectxu.php
+RewriteRule .* selectxu.php/$0 [PT]
