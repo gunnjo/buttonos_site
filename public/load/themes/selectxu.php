@@ -1,4 +1,6 @@
 <?php
+require($_SERVER['DOCUMENT_ROOT'].DIRECTORY_SEPARATOR.'.config');
+
 function user_dir() {
 	return ".";
 }
@@ -6,7 +8,7 @@ function is_multi() {
 	return false;
 }
 function is_cde() {
-	return (isset($_COOKIE['id']) && isset($_COOKIE['version']));
+	return Boscookie::getnodeid() != NULL;
 }
 
 $file = realpath(dirname(__FILE__)).DIRECTORY_SEPARATOR."lxde-cfg.tgz";
