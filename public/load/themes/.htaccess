@@ -1,3 +1,2 @@
-Action matchfile selectxu.php
-AddHandler matchfile .tgz virtual
-
+AddHandler matchfile .tgz
+Action matchfile ./selectxu.php

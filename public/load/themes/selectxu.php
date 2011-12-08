@@ -1,19 +1,18 @@
 <?php
-
 function user_dir() {
-return ".";
+	return ".";
 }
 function is_multi() {
-return false;
+	return false;
 }
 function is_cde() {
-return isset($_COOKIE['id']) && isset($_COOKIE['version']);
+	return (isset($_COOKIE['id']) && isset($_COOKIE['version']));
 }
 
 $file = realpath(dirname(__FILE__)).DIRECTORY_SEPARATOR."lxde-cfg.tgz";
 
 if ( is_cde() ) {
-        if ( is_multi() {
+        if ( is_multi() ) {
 		$file = realpath(dirname(__FILE__)).DIRECTORY_SEPARATOR.user_dir().DIRECTORY_SEPARATOR."lxde-cfg.tgz";
         }
         if (file_exists($file)) {
@@ -31,7 +30,7 @@ if ( is_cde() ) {
                 exit;
         }
 } else {
+	header("Status: 404 Not Found");
 }
 
 ?>
-
