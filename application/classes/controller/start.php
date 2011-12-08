@@ -7,6 +7,7 @@ class Controller_Start extends Controller_Global {
 	{
 		//TODO select template
 		$this->template = 'starttemplate';
+		$this->uid = Boscookie::getnodeid();
 		parent::before();
 	}
 
@@ -17,7 +18,7 @@ class Controller_Start extends Controller_Global {
 		$this->body->set(
 			array(
 				'page_title' => 'Welcome to ButtonOS - What Would You Like to Do?',
-				'control_page' => '#',
+				'control_page' => $this->uid === NULL ? '#' : 'help',
 				'buttons' =>
                     array(
                         1=> array(
