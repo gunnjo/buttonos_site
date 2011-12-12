@@ -30,6 +30,7 @@ class Boscookie {
 
 	private static function vuid() {
 		if ( isset($_COOKIE['id']) ) {
+			error_log("Cookie: "+$_COOKIE['id']);
 			if (preg_match("/^[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}$/", $_COOKIE['id'])) {
 				return self::wuid($_COOKIE['id']);
 			}
@@ -56,6 +57,7 @@ class Boscookie {
 			}
 		}
 		pclose($fh);
+		error_log("Result :"+serialize($r));
 		return($r);
 	}
 }

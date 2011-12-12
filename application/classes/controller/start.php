@@ -2,8 +2,6 @@
 
 class Controller_Start extends Controller_Global {
 
-
-
 	public function action_index()
 	{
 		$a = array(
@@ -99,9 +97,9 @@ class Controller_Start extends Controller_Global {
 					)
 				);
 		}
+
 		$this->body = View::factory('start');
 		$this->body->set( array_merge( $a, $b));
-
 
 	}
 

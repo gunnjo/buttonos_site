@@ -2,11 +2,19 @@
 
 class Controller_Global extends Controller_Template {
 
+	public function after()
+	{
+
+		$this->template = View::factory($this->template);
+		parent::after();
+
+	}
 	public function before()
 	{
 
 		$this->uid = Boscookie::getnodeid();
-		$this->template = $this->uid === NULL ? 'template' : 'starttemplate';
+		$this->template = ($this->uid === NULL) ? 'template' : 'starttemplate';
+
 		$this->script_container = array(
 			HTML::script("media/js/jquery-1.6.4.min.js"),
 			HTML::script("media/js/jquery.coda-slider-2.0.js"),
@@ -19,7 +27,6 @@ class Controller_Global extends Controller_Template {
 			HTML::script ("media/js/cloudmenu.js")
 		);
 			
-		parent::before();
 
 		// Make objects available to views
 		View::bind_global('page_title', $this->page_title);
