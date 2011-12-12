@@ -8,7 +8,6 @@ class Controller_Index extends Controller_Global {
 		$this->page_title = 'Chrome OS Alternative - Live CD Web Browser - ButtonOS by Curly Cloud';
 		$this->body = View::factory('index');
 
-		$this->response->body(View::factory('template'));
 
 	}
 
