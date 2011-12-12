@@ -6,7 +6,7 @@
 
 	<title><?php echo $page_title; ?></title>
 
-	<link rel="shortcut icon" href="/media/img/favicon.ico" />
+	<link rel="shortcut icon" href="/favicon.ico" />
 	<link type="text/css" rel="stylesheet" href="/media/css/style.css" />
 
 </head>
@@ -23,20 +23,6 @@
 				</div>
 			</div>
 
-			<?php
-			/*
-			<div id="header-profile">
-				<div id="header-profile-information">
-					<h3><strong>Welcome, Ryan!</strong></h3>
-					<span><a href="#">Account</a> - <a href="#">Settings</a></span>
-				</div>
-				<div id="header-profile-picture" class="round-picture">
-					<img src="http://graph.facebook.com/ryanlelek/picture" alt="" />
-				</div>
-			</div>
-			*/
-			?>
-
 			<ul id="navigation">
 				<li><a href="/about">About</a></li>
 				<li><a rel="external" href="http://blog.buttonos.org">Blog</a></li>
@@ -44,19 +30,7 @@
 				<li><a href="/community">Community</a></li>
 				<li><a href="/community/contribute">Contribute</a></li>
 				<li><a class="download" href="/download">Download</a></li>
-				<?php
-				/*
-				<li><a href="{$data.system.urlroot}/signup">Sign Up</a></li>
-				<li><a href="{$data.system.urlroot}/login">Login</a></li>
-				*/
-				?>
 			</ul>
-
-			<!--
-			<div id="header-search">
-				<input type="text" name="search" value="Search..." />
-			</div>
-			-->
 
 		</div>
 	</div>
@@ -110,6 +84,13 @@
 			</div>
 		</div>
 
+		<div>
+			<a rel="external" href="http://github.com/curlycloud">
+				<img style="position: absolute; top: 0; left: 0; border: 0;" src="/media/img/fork-on-github.png" alt="Fork us on GitHub" />
+			</a>
+		</div>
+
+
 		<?php
 
 			if(isset($script_container))
@@ -118,29 +99,13 @@
 			foreach($script_container as $script)
 			{
 
-				echo '<script type="text/javascript" src="'.$script->src.'"></script>';
+				echo $script;
 
 			}
 			}
 
 		?>
-
-		<div>
-			<a rel="external" href="http://github.com/curlycloud">
-				<img style="position: absolute; top: 0; left: 0; border: 0;" src="/media/img/fork-on-github.png" alt="Fork us on GitHub" />
-			</a>
-		</div>
-
-		<script type="text/javascript" src="/media/js/jquery-1.6.4.min.js"></script>
-		<script type="text/javascript" src="/media/js/jquery.coda-slider-2.0.js"></script>
-		<script type="text/javascript" src="/media/js/jquery.easing.1.3.js"></script>
-		<script type="text/javascript" src="/media/js/nivo.js"></script>
-		<script type="text/javascript" src="/media/js/cufon.js"></script>
-		<script type="text/javascript" src="/media/js/enigmatic.cufonfonts.js"></script>
 		<script type="text/javascript" src="/media/js/analytics.js"></script>
-		<script type="text/javascript" src="/media/js/cloudmenu.js"></script>
-		<script type="text/javascript" src="/media/js/external_links.js"></script>
-		<script type="text/javascript" src="/media/js/scripts.js"></script>
 
 	</body>
 </html>

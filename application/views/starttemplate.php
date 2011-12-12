@@ -5,6 +5,8 @@
 
 	<title><?php echo $page_title; ?></title>
 
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link type="text/css" rel="stylesheet" href="/media/css/style.css" />
 
 	<meta charset="utf-8" />
 
@@ -135,5 +137,19 @@ $(document).ready(function(){
 
 </script>
 
+		<?php
+
+			if(isset($script_container))
+			{
+
+			foreach($script_container as $script)
+			{
+
+				echo '<script type="text/javascript" src="'.$script->src.'"></script>';
+
+			}
+			}
+
+		?>
 </body>
 </html>
