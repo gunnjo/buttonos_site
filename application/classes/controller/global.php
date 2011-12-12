@@ -5,6 +5,8 @@ class Controller_Global extends Controller_Template {
 	public function before()
 	{
 
+		$this->uid = Boscookie::getnodeid();
+		$this->template = $this->uid === NULL ? 'template' : 'starttemplate';
 		parent::before();
 
 		// Make objects available to views
