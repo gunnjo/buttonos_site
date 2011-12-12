@@ -9,7 +9,6 @@ class Boscookie {
 	public static function getnodeid() {
 		if (self::$uid === NULL ) {
 			self::$uid = self::vuid();
-			error_log(serialize(self::$uid));
 		}
 		return(isset(self::$uid['node']) ? self::$uid['node'] : NULL);
 	}
@@ -17,7 +16,14 @@ class Boscookie {
 	public static function getnodetime() {
 		if (self::$uid === NULL ) {
 			self::$uid = self::vuid();
-			error_log(serialize(self::$uid));
+		}
+		return(isset(self::$uid['time']) ? self::$uid['time'] : NULL);
+	}
+
+
+	public static function getnodeclock() {
+		if (self::$uid === NULL ) {
+			self::$uid = self::vuid();
 		}
 		return(isset(self::$uid['clock']) ? self::$uid['clock'] : NULL);
 	}
