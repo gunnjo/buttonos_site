@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-class Controller_Start extends Controller_Global {
+class Controller_Start_Help extends Controller_Global {
 
 
 	public function before()
@@ -14,7 +14,7 @@ class Controller_Start extends Controller_Global {
 	public function action_index()
 	{
 
-		$this->body = View::factory('start');
+		$this->body = View::factory('help');
 		$this->body->set(
 			array(
 				'page_title' => 'Welcome to ButtonOS - How can we help you?'
