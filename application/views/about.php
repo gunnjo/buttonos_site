@@ -11,28 +11,25 @@
 		<div id="body-content">
 
 			<h1>ButtonOS Roots</h1>
-			<p>The ButtonOS Project was thought up by the people at Curly Cloud, a small (but ambitious) group of designers and developers. Curly Cloud helps clients and companies, large and small build up a web presence by leveraging "cloud" technology.</p>
+			<p>The ButtonOS Project was thought up by Ryan and Joe at Curly Cloud, a small group of designers and developers in Chicago. Joe and Ryan met in early 2009 and have been working together ever since.</p>
 
 			<h1>The Problem</h1>
-			<p>Quite a few clients Curly Cloud talked with mentioned how they found it difficult and frustrating to use the Internet on a "conventional" computer. Prompted with required updates, virus scans, and error messages full of gobbledygook, these users didn't know what was wrong or how to fix it.</p>
+			<p>We built ButtonOS because, as the unofficial technical support for friends and family, we always got the phone calls when something went wrong with a computer. One day a printer worked fine, but the next refused to print that oh so important term paper. Whatever the problem, we got the call...and when we asked around, we found we were not the only developers that are part-time computer support agents.</p>
 
 			<h1>The Answer</h1>
-			<p>Computer users shouldn't have to be computer administrators. Putting a regular user in control of an entire computer makes about as much sense to ask a creative painter to build a 40-story skyscraper. Users just want to <strong>use</strong> the computer, and not be bothered with figuring out how it operates.</p>
+			<p>After hearing of the many pop-ups, error messages, and virus troubles, we knew something had to be done. Since most of our friends and family use the computer for simple tasks, like a Google search or typing up a letter, we knew it was time to go back to basics.</p>
 
 			<h1>The Solution...ButtonOS</h1>
-			<p>The Curly Cloud team knew something could be done to help computer users enjoy using the computer again. A little over six months later, ButtonOS was born, exceeding even our original expectations.</p>
+			<p>Built from the ground up, ButtonOS includes only the necessities. Because of this, older PCs can run faster and continue to be used for years to come. Best of all, it doesn't require another purchase (like a pricey iPad). Just insert the ButtonOS CD, reboot, and you'll hit the ground running.</p>
 
 			<h1>Why Name it ButtonOS?</h1>
-			<p>The name "ButtonOS", short for "Common Denominator," was thought up by Curly Cloud team member Ryan Lelek in hopes of reflecting the top priority of the ButtonOS Project - to provide a common base for computers both new and old. The name ButtonOS just kind of stuck after that!</p>
+			<p>The name "ButtonOS" bridges the gap between the web and simplicity. Clicking a button on the web is as easy (if not easier) than buttoning a shirt. Plus, a button (on a shirt) has many threads going through it, and we found that pretty "punny."</p>
 
-			<h1>He Likes It! (Hey Mikey!)</h1>
-			<p>After letting some people give ButtonOS a try, it's clear they like what's going on. They can easily browse the Internet on their current computer with ButtonOS, without worrying about catching a virus, annoying pop-ups, or system slow-downs. Sure, ButtonOS doesn't do <em>everything</em>, but what it does, it does well.</p>
-
-			<h1>To Infinity and Beyond!</h1>
-			<p>Curly Cloud is so happy with the first version of ButtonOS and the reactions of its (testing) users, we've decided to start development on a second version. There's been some interesting talk about features in the next version and we can't wait to get them up and running!</p>
+			<h1>What's Next?</h1>
+			<p>ButtonOS is now open-source, and we look forward to transforming the way many people think of computers and the web. We see a world where computers are more of an asset than a liability. ButtonOS is just the first step in chaging the world for the better.</p>
 
 			<h1>Can I Help?</h1>
-			<p>You sure can! It all starts on Curly Cloud's "Get Satisfaction" page. Ask us a question, add a comment, or just let us know how you use ButtonOS.<br /><a href="http://getsatisfaction.com/curlycloud/topics/new">Let's Go to the Curly Cloud Page</a></p>
+			<p>You sure can! No matter what your talent, from artist to Linux guru, you can help out ButtonOS. The ButtonOS code is open source, and we try to be as responsive and helpful as possible. So if you have any questions, comments, or issues, get in touch and we'll try to help out!</p>
 
 		</div>
 	</div>
