@@ -145,7 +145,7 @@ $(document).ready(function(){
 			foreach($script_container as $script)
 			{
 
-				echo '<script type="text/javascript" src="'.$script->src.'"></script>';
+				echo $script;
 
 			}
 			}
