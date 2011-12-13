@@ -8,8 +8,6 @@ class Controller_Download extends Controller_Global {
 		$this->page_title = 'Download ButtonOS - ButtonOS Project by Curly Cloud';
 		$this->body = View::factory('download');
 
-		$this->response->body(View::factory('template'));
-
 	}
 
 }

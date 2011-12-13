@@ -10,8 +10,6 @@ class Controller_Reserve extends Controller_Global {
 		$this->page_title = 'Reserve ButtonOS CD - ButtonOS Project by Curly Cloud';
 		$this->body = View::factory('reserve_cd');
 
-		$this->response->body(View::factory('template'));
-
 	}
 
 }

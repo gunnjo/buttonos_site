@@ -8,8 +8,6 @@ class Controller_Team extends Controller_Global {
 		$this->page_title = 'ButtonOS Team- ButtonOS Project by Curly Cloud';
 		$this->body = View::factory('team');
 
-		$this->response->body(View::factory('template'));
-
 	}
 
 }

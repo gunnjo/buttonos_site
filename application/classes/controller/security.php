@@ -8,8 +8,6 @@ class Controller_Security extends Controller_Global {
 		$this->page_title = 'ButtonOS Security- ButtonOS Project by Curly Cloud';
 		$this->body = View::factory('security');
 
-		$this->response->body(View::factory('template'));
-
 	}
 
 }
