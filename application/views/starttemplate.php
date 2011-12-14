@@ -94,17 +94,33 @@
 			border-radius: 10px;
 		}
 
+		a.skype_link:active {
+			displey: block;
+		}
 	</style>
 
 </head>
 <body>
 
 		<?php if(isset($body)){ echo $body; } ?>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+
+		<?php
+
+			if(isset($script_container))
+			{
+
+			foreach($script_container as $script)
+			{
+
+				echo $script;
+
+			}
+			}
+
+		?>
 <script type="text/javascript" src="/media/start/js/jquery.colorbox-min.js"></script>
 <script type="text/javascript" src="/media/start/js/external_links.js"></script>
 <script type="text/javascript">
-
 $(document).ready(function(){
 
 	$("input#ddg_query").focus(function(){
@@ -137,19 +153,5 @@ $(document).ready(function(){
 
 </script>
 
-		<?php
-
-			if(isset($script_container))
-			{
-
-			foreach($script_container as $script)
-			{
-
-				echo $script;
-
-			}
-			}
-
-		?>
 </body>
 </html>
